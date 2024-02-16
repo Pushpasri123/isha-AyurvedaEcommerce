@@ -1,0 +1,1036 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,800;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Roboto:ital,wght@0,500;0,900;1,400;1,500;1,700&display=swap');
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+
+  
+ }
+ body{
+  font-family: 'Rubik', sans-serif;
+ }
+ a{
+  text-decoration: none;
+  display:inline-block;
+ }
+ :root{
+  --color:#229954;
+ }
+
+ /* Hedaer Part*/
+ .header-top-strip{
+  /*background-color:#333333;*/
+  background-color: #72Bf40;
+  
+
+
+ }
+  .header-upper{
+    background-color: white
+  }
+  .header-upper  .textcolor{
+    color: #112e50;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 60px;
+    padding-top: 20px;
+    
+    
+  }
+  .header-upper .texth3{
+    padding-left: 31px;
+  }
+  .header-upper .input-group-text{
+    background-color:#72Bf40;
+
+  }
+  .header-upper{
+    background-color: #ffffff;
+  }
+  
+  .header-bottom .dropdown button{
+    color: #444444;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    letter-spacing:  0.3 ;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    
+
+  }
+  
+
+  
+  
+  .form-control:focus{
+    box-shadow: none;
+    box-sizing: 20px;
+    border-color:#72Bf40;
+  }
+  .header-upper .input-group{
+    padding-left:40px ;
+    padding-top: 20px;
+  }
+  .gap-15{
+    gap:15px;
+  }
+  .gap-30{
+    gap:30px;
+  }
+  .header-bottom .dropdown button:focus{
+    box-shadow: none;
+    
+
+  }
+  .header-bottom .dropdown .dropdown-menu{
+    /*background-color: aqua; */
+    background-color: #ffffff;
+    width: 100%;
+    transform:translate3d(0px,57px,0px) ;
+  }
+  .header-bottom .dropdown-item:hover{
+    background-color: transparent;
+    color: greenyellow
+  }
+  .header-bottom .dropdown-item{
+    padding:20px;
+    margin-bottom:3px ;
+    /*border-bottom: 1px solid red; */
+    border-bottom: 1px solid #72Bf40;
+  }
+  .header-bottom .dropdown-item{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+  .header-bottom{
+    background-color: #1A4B84;
+  }
+  .header-bottom .menu-links a{
+    color:whitesmoke;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3;
+     text-transform: uppercase;
+
+  }
+ .header-upper .header-upper-link img{
+  width:35px;
+  height:35px;
+ }
+ 
+ .gap-10{
+  gap: 10px;
+ }
+ .gap-15{
+  gap: 15px;
+ }
+ .dropdown{
+  background-color: #ffffff;
+ }
+ 
+  
+.slider_title{
+  font-size: 30px;
+  text-align: left;
+  padding-left: 100px;
+  padding-top:120px;
+  text-decoration: underline;
+  font-weight: 600;
+  
+}
+/* haedaer part  end here */
+
+
+/* Footer Part  */
+ 
+ footer {
+  background-color: #27AE60;
+ }
+ footer:not(:first-child){
+  border-top: 1px solid rgba(255,255,255,0.1);
+ }
+ footer .input-group-text{
+  background-color: antiquewhite;
+  color:white;
+  padding:8px 17px ;
+  font-size:14px ;
+ }
+ 
+ 
+
+
+/* footer block-2 */
+.footer-part-2 .container-fluid {
+  background-color: #72Bf40; 
+  color: white;
+}
+.footer-part-2 .col-md-4:nth-child(1) {
+  padding-top: 20px;
+}
+.footer-part-2 .col-md-4:nth-child(2) {
+  padding-top: 20px;
+}
+.footer-part-2 .col-md-4:nth-child(3) {
+  padding-top: 20px;
+}
+.footer-part-2 .col-md-4:nth-child(4) {
+  padding-top: 20px;
+}
+
+.footer-part-2 .footer-links.contact-widget {
+  list-style: none;
+  padding: 0;
+}
+
+
+.footer-part-2 .footer-links.contact-widget {
+  list-style: none;
+  padding: 0;
+}
+
+
+.footer-part-2 .footer-links.contact-widget li {
+  display: inline-block; 
+  margin-right: 20px; 
+
+}
+.footer-part-2 .footer-links.contact-widget li span.opacity-1 {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+.footer-part-2 .footer-links.contact-widget li span.d-block {
+  display: block;
+  margin-left: 10px; 
+}
+/* Apply styles to the Useful Link section */
+.footer-part-2 .footer-links.useful-links {
+  list-style: none;
+  padding: 0;
+}
+
+/* Apply styles to the Useful Link section */
+.footer-part-2 .footer-links.useful-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px; /* Adjust the margin as needed for space between sections */
+}
+
+/* Apply styles to each link in the Useful Link section */
+.footer-part-2 .footer-links.useful-links li {
+  margin-bottom: 10px; /* Adjust the margin as needed for spacing between items */
+}
+
+/* Apply styles to the links in the Useful Link section */
+.footer-part-2 .footer-links.useful-links a {
+  display: block;
+  color: #fff; /* Change to the desired text color */
+  text-decoration: none;
+  padding: 5px 0; /* Adjust the padding for spacing between links */
+}
+
+/* Apply styles to the hover effect on links in the Useful Link section */
+.footer-part-2 .footer-links.useful-links a:hover {
+  text-decoration: underline;
+}
+
+/* Apply styles to create space between Useful Link and About Us sections */
+.footer-part-2 .col.text-center.text-md-left h4.text-uppercase.mb-2 + ul  {
+  margin-top: 20px;
+   /* Adjust the margin as needed for space between sections */
+}
+/* Add space between About Us and Return & Refund Policy */
+.footer-part-2 .footer-links li:nth-child(1) {
+  margin-bottom: 20px; /* Adjust the margin as needed for spacing */
+}
+.footer-part-2 .footer-links li:nth-child(2) {
+  margin-bottom: 20px; /* Adjust the margin as needed for spacing */
+}
+.footer-part-2 .footer-links li:nth-child(3) {
+  margin-bottom: 20px; /* Adjust the margin as needed for spacing */
+}
+.footer-part-2 .footer-links li:nth-child(4) {
+  margin-bottom: 20px; /* Adjust the margin as needed for spacing */
+}
+
+/* footer block-2 end here */
+/* footer block-3 start here */
+
+
+.footer-last-box{
+  background-color: #72Bf40;
+}
+
+.social-link img {
+  max-height: 30px;
+}
+
+
+
+.social-link {
+  margin-right: 10px; 
+  margin-top: 20px;
+}
+
+/* footer block-3 end here */
+
+
+ 
+
+
+ 
+
+
+/* Footer part end here */
+
+
+/* blog part start here */
+
+.blog-card{
+  background-color: white;
+  padding: 10px;
+  border:1px solid red;
+
+}
+.blog-card img{
+  border-top-left-radius: 10px ;
+  border-top-right-radius: 10px;
+}
+.blog-content{
+  padding: 15px;
+}
+ .blog-content h5.title{
+  font-size: 17px;
+  font-weight: 400;
+  font-weight: bold;
+  text-transform:lowercase;
+  color: #4CAF50;
+ }
+ .blog-content p.desc{
+  padding-top: 15px;
+  font-size: 15px;
+  line-height: 22px;
+ }
+.blog-card .button{
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 20px;
+  
+}
+.section-heading{
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom:30px ;
+}
+
+
+/* blog part end here */
+
+/* featured product cart */
+/*.product-card{
+  padding:15px ;
+  background-color:aliceblue;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+ 
+.product-card .product-details{
+  color:#27AE60;
+  font-size: 13px;
+}
+.product-card  .product-details h5{
+  font-size: 15px;
+  color: palevioletred;
+}
+.action-bar {
+  top:10%;
+  right:-23px;
+}
+.wishlist-icon{
+  top:8%;
+  right:-1px;
+} */
+
+/* modifyied featured product start here */
+
+/* Add this CSS code to your stylesheet */
+
+/* Style for Product Containers */
+.productcartchild-container {
+  border: 1px solid red;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Style for Product Images */
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style for Product Buttons */
+.product-buttons {
+  margin-top: 10px;
+}
+
+.product-buttons button {
+  margin-right: 5px;
+}
+
+.viewmorechil-container {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.view-more a {
+  color: #fff; /* Set the color as per your design */
+  text-decoration: none;
+}
+
+.view-more a:hover {
+  text-decoration: underline;
+}
+
+
+/* Responsive Styles (adjust as needed) */
+@media (max-width: 768px) {
+  .productcartchild-container {
+    width: 100%;
+  }
+}
+
+/* modified featured product end here */
+/* featured product end here */
+  
+
+/* ExploreBest css  start here */
+
+
+
+.App {
+  border-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.topContent {
+  margin-bottom: 40px;
+  font-size: 200%;
+  text-align: center;
+  color: steelblue;
+}
+.carousel {
+  display: flex;
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+  max-width: 40000px;
+}
+
+.carousel_wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel_card {
+  display: flex;
+  flex: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 11px 3px #ffffff;
+  box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.8);
+  transition: 0.5s ease-in-out;
+}
+
+.carousel_card-active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+.card_image {
+  width: 100% ;
+  max-width: 100%;
+  object-position: center;
+  
+}
+
+.card_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  padding: 50px 50px;
+  align-items: flex-end;
+}
+
+.card_title {
+  color: white;
+  font-size: 30px;
+}
+
+.carousel_arrow_left,
+.carousel_arrow_right {
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+
+.carousel_arrow_left {
+  left: 15px;
+}
+
+.carousel_arrow_right {
+  right: 15px;
+}
+
+.carousel_pagination {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.pagination_dot {
+  height: 10px;
+  width: 10px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.pagination_dot:hover {
+  transform: scale(1.2);
+}
+
+.pagination_dot-active {
+  background-color: steelblue;
+}
+/* Explore Best end here */
+
+/* product slider start here*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  background-color: #222;
+}
+
+body {
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main-container {
+  width: 90vw;
+  max-width: 840px;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.prev {
+  position: absolute;
+  top: 150px;
+  left: -30px;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+.next {
+  position: absolute;
+  top: 150px;
+  right: -30px;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.slick-slide {
+  padding: 0 10px;
+}
+
+.slick-dots li {
+  margin: -20px 0 !important;
+}
+
+/* full width image */
+.bg-image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-container:hover {
+  filter: grayscale(100%);
+}
+
+.gradient {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.25) 50%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+
+.text-container {
+  max-width: 75%;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.label {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+
+/* product slider start here */
+
+
+
+
+.slider {
+  margin:0 20px;
+  overflow:"hidden";
+  padding:2rem 0;
+}
+
+.slider img {
+  width: 100%;
+  border-radius:10px;
+  
+}
+
+.react-multi-carousel-list {
+padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button{
+border: none;
+background: rgb(255, 68, 68);
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button{
+background: rgb(255, 68, 68) !important;
+}
+.main-parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 1px  #ccc;
+ 
+}
+
+.carousel-container {
+  border: 5px solid whitesmoke ; /* Set the border color and thickness */
+  padding: 20px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Include padding in the total width/height */
+}
+
+.slider {
+  position: relative;
+}
+
+.image-container {
+  border: 3px solid #f5f5f5; /* Set the border color and thickness for each image */
+  padding: 10px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Include padding in the total width/height */
+  margin-bottom: 10px;
+   /* Add margin between each image */
+}
+
+img {
+  width: 100%; /* Make sure the image fills the container */
+  height: auto; /* Maintain the aspect ratio of the image */
+  display: block; /* Remove extra space beneath the image */
+}
+.small-image {
+  max-width: 250px; /* Adjust the value based on your preference */
+  max-height: 300px;
+  transition: transform 0.3s  ease-in-out; /* Adjust the value based on your preference */
+}
+.small-image:hover {
+  transform: scale(0.9)  ;
+  transition: transform 0.3s ease-in-out;
+  ; /* Adjust the scale factor based on your preference */
+}
+.price {
+  margin-top: 20px; /* Add margin between image and price */
+  text-align: center; /* Center the price text */
+  font-weight: bold; /* Set the font weight as needed */
+}
+.best_seller_paragraph{
+  margin-top: 20px; /* Add margin between image and price */
+  text-align: center; /* Center the price text */
+  font-weight: bold;
+
+}
+.Product_slider_heading .slider_title h1{
+  font-size: 300;
+}
+
+.parent-container {
+  padding: 60px; /* Adjust the padding as needed */
+  overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+   /* Set a maximum height for the container */
+}
+/* Left arrow */
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+  left: 10px; /* Adjust the left position as needed */
+}
+
+/* Right arrow */
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+  right: 10px; /* Adjust the right position as needed */
+}
+
+/* our Store start here  */
+.filter-card{
+ background-color: whitesmoke; 
+ border-radius: 10px;
+ padding: 10px 15px;
+}
+
+.filter-title{
+  font-size: 16px;
+  line-height:20px ;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 20px;
+}
+.filter-card ul .form.filter-card .form-check-label
+{
+  list-style-type: none;
+  font-size:13px ;
+  line-height: 30px;
+  color: #112e50;
+  cursor: pointer;
+}
+.filter-card .form-check-input:focus{
+  box-shadow: none;
+  border-color: inherit;
+}
+.filter-card .form-check-input:checked{
+  background-color:#1A4B84 ;
+}
+.sub-title  {
+  font-size: 14px;
+  font-weight:600 ;
+  color:#229954;
+  margin-bottom: 15px;
+  
+}
+
+/* our store end here */
+
+
+
+
+
+/*product slider end here */
+
+/* login part start here */
+
+
+/* Section styling */
+.gry-bg {
+  background-color: #f0f0f0; /* Adjust the background color as needed */
+}
+
+.py-5 {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+/* Profile card styling */
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Form and input styling */
+.form-default {
+  padding: 0;
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.80rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.input-group-addon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.btn-base-1 {
+  background-color: #007bff; /* Adjust the button color as needed */
+  border-color: #007bff;
+}
+
+.btn-md {
+  font-size: 1rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* Text and link styling */
+.heading-4 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .col-xxl-4,
+  .col-xl-5,
+  .col-lg-6,
+  .col-md-8 {
+    width: 100%;
+  }
+}
+.magic-checkbox {
+  transform: scale(1.5); 
+  margin-right: 10px; 
+}
+
+/* login part end here */
+/* signup part satrt here */
+
+.py-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.Signup-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.input-group-addon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Adjust the icon size and style */
+.input-group-addon i {
+  font-size: 1.5rem; /* Adjust the icon size as needed */
+  color: #6c757d; /* Adjust the icon color as needed */
+}
+/* signup part end here */ 
+
+/* forgot password start here */
+/* Add this CSS in a separate file or within your project's styling solution */
+
+.forgot-password-container {
+  margin-top: 50px; 
+  display: flex;
+  flex-direction: row; 
+  text-align: center;
+  width: 600px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;    /* Adjust as needed */
+}
+
+.panel-default {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.panel-body {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-danger {
+  background-color: #d9534f; /* Set the button color as needed */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c; /* Set the button hover color as needed */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pad-btm {
+  margin-bottom: 20px;
+}
+
+.reset-password {
+  
+  text-align: center;
+  width: 400px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+
+
+
+/* forgot password end here */

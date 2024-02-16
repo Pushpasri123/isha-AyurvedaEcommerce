@@ -1,0 +1,57 @@
+.cardSliderSection{
+    width:100%;
+    height: auto;
+    padding: 30px 0px;
+
+}
+.cardslider_Main .slick-slide{
+    padding-right: 15px !important;
+    padding-left: 10px !important ;
+    justify-content: center;
+    
+}
+.hd{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.cardslider_Main .item{
+   
+    
+    height : auto;
+   background: whitesmoke;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   padding: 15px;
+   
+    
+    
+}
+.cardslider_Main .item .info{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+      font: weight 200px; ;
+      margin-top: 10px;
+      transition:all 0.2s ease-in-out ;
+        position:relative;
+}
+.cardslider_Main .item .info h5{
+    font-size: 25px;
+    opacity: 0.8;
+    color: brown;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.cardslider_Main .item:hover .info{box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); transform: scale(1.1);}
+
+
+
+
